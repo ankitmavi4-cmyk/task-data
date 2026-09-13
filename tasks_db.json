@@ -20,11 +20,14 @@
       "2. Udyam Registration Filed",
       "3. Udyam Certificate Issued"
     ],
-    "currentStageIndex": 0,
-    "stage": "1. Enterprise & Investment Data",
-    "progress": 33,
-    "completed": false,
-    "completionData": {}
+    "currentStageIndex": 2,
+    "stage": "3. Udyam Certificate Issued",
+    "progress": 100,
+    "completed": true,
+    "completionData": {
+      "Udyam Registration Number": "UAM-554D12",
+      "Major NIC Activity Code": "FJASHFJ"
+    }
   },
   {
     "id": "1789320522",
