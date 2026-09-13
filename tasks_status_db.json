@@ -1,33 +1,5 @@
 [
   {
-    "id": "1789320522",
-    "clientName": "KENNETH CHARLES TAYLOR",
-    "maskedPhone": "XXXXXX3081",
-    "phoneLast4": "3081",
-    "maskedEmail": "an********4@gmail.com",
-    "serviceType": "DSC",
-    "reference": "CA HEMANT",
-    "staffAssigned": "KANIKA",
-    "createdDate": "2026-09-13",
-    "targetDate": "2026-09-16",
-    "status": "In Progress",
-    "completed": false,
-    "currentStage": "1. Docs & KYC Collected",
-    "currentStageIndex": 0,
-    "progress": 20,
-    "totalStages": 5,
-    "stages": [
-      "1. Docs & KYC Collected",
-      "2. Mobile & Email OTP Done",
-      "3. Video Recording Verified",
-      "4. Certificate Downloaded to Token",
-      "5. Token Handover / Delivered"
-    ],
-    "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-09-14 00:29"
-  },
-  {
     "id": "1789066445",
     "clientName": "JSR FITNESS GYM",
     "maskedPhone": "XXXXXX6901",
@@ -53,7 +25,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 00:29"
+    "lastUpdated": "2026-09-14 00:40"
   },
   {
     "id": "1789065400",
@@ -81,7 +53,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 00:29"
+    "lastUpdated": "2026-09-14 00:40"
   },
   {
     "id": "1789066069",
@@ -109,7 +81,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 00:29"
+    "lastUpdated": "2026-09-14 00:40"
   },
   {
     "id": "1789066094",
@@ -137,7 +109,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 00:29"
+    "lastUpdated": "2026-09-14 00:40"
   },
   {
     "id": "1789065573",
@@ -165,6 +137,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 00:29"
+    "lastUpdated": "2026-09-14 00:40"
   }
 ]
