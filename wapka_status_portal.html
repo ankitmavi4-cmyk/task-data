@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application & Filing Status Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-body: #0b0f19;
+            --bg-surface: #111827;
+            --bg-card: #1f2937;
+            --bg-input: #111827;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-main: #f9fafb;
+            --text-sub: #9ca3af;
+            --text-muted: #6b7280;
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --info: #3b82f6;
+            --radius-sm: 8px;
+            --radius-md: 14px;
+            --radius-lg: 20px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 20px 14px 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .portal-header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .portal-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(99, 102, 241, 0.12);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            color: var(--primary-light);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .portal-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+            background: linear-gradient(135deg, #ffffff 40%, #9ca3af 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .portal-subtitle {
+            color: var(--text-sub);
+            font-size: 0.9rem;
+        }
+
+        /* Search Card */
+        .search-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 18px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .search-input-box {
+            display: flex;
+            align-items: center;
+            background: var(--bg-input);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            padding: 4px 14px;
+            margin-bottom: 12px;
+            transition: border-color 0.2s;
+        }
+
+        .search-input-box:focus-within {
+            border-color: var(--primary);
+        }
+
+        .search-input-box input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--text-main);
+            font-size: 0.95rem;
+            padding: 10px 0;
+        }
+
+        .search-input-box input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .clear-search {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.3rem;
+            cursor: pointer;
+            display: none;
+        }
+
+        /* Filter Chips */
+        .filter-row {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .chip {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-sub);
+            padding: 5px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .chip:hover {
+            color: var(--text-main);
+            border-color: var(--primary-light);
+        }
+
+        .chip.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+
+        /* Status Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .stat-box {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            padding: 12px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-main);
+        }
+
+        .stat-lbl {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        /* Results List */
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 0.85rem;
+            color: var(--text-sub);
+        }
+
+        .app-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .app-item {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 16px 18px;
+            transition: transform 0.2s, border-color 0.2s;
+            cursor: pointer;
+        }
+
+        .app-item:hover {
+            transform: translateY(-2px);
+            border-color: rgba(99, 102, 241, 0.4);
+        }
+
+        .item-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .item-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .item-id {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+
+        .service-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+        }
+
+        .badge-gst { background: rgba(139, 92, 246, 0.2); color: #c4b5fd; border: 1px solid rgba(139, 92, 246, 0.4); }
+        .badge-pan { background: rgba(249, 115, 22, 0.2); color: #fdba74; border: 1px solid rgba(249, 115, 22, 0.4); }
+        .badge-dsc { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-other { background: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.4); }
+
+        .masked-row {
+            display: flex;
+            gap: 16px;
+            font-size: 0.8rem;
+            color: var(--text-sub);
+            margin-bottom: 12px;
+            font-family: monospace;
+        }
+
+        .masked-row span strong {
+            color: var(--text-muted);
+            font-family: inherit;
+        }
+
+        /* Progress Bar */
+        .progress-box {
+            margin-bottom: 10px;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .progress-track {
+            height: 6px;
+            background: var(--bg-card);
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), #8b5cf6);
+            border-radius: 9999px;
+            transition: width 0.6s ease;
+        }
+
+        .progress-fill.done {
+            background: linear-gradient(90deg, #10b981, #059669);
+        }
+
+        .item-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 10px;
+            margin-top: 6px;
+        }
+
+        .track-link {
+            color: var(--primary-light);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Modal */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(6px);
+            z-index: 9999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .modal-box {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            width: 100%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .close-btn {
+            background: transparent;
+            border: none;
+            font-size: 1.8rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .modal-stepper {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 20px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .modal-stepper::before {
+            content: '';
+            position: absolute;
+            left: 28px;
+            top: 8px;
+            bottom: 8px;
+            width: 2px;
+            background: var(--border-color);
+        }
+
+        .step-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-dot {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .step-row.done .step-dot {
+            background: var(--success);
+            border-color: var(--success);
+            color: white;
+        }
+
+        .step-row.active .step-dot {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.3);
+        }
+
+        .step-text {
+            font-size: 0.9rem;
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        .step-row.done .step-text {
+            color: var(--text-sub);
+        }
+
+        .empty-msg {
+            text-align: center;
+            padding: 40px 10px;
+            color: var(--text-sub);
+        }
+
+        /* Setup / URL config bar */
+        .config-banner {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.25);
+            padding: 10px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .config-banner span {
+            color: var(--primary-light);
+        }
+
+        .config-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            .stats-bar {
+                grid-template-columns: 1fr 1fr;
+            }
+            .masked-row {
+                flex-direction: column;
+                gap: 4px;
+            }
+            .portal-title {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <header class="portal-header">
+        <div class="portal-badge">🛡️ PII Masked & Privacy Safe</div>
+        <h1 class="portal-title">Client Application Status</h1>
+        <p class="portal-subtitle">Track your filing stages, milestones, and live approval status</p>
+    </header>
+
+    <!-- GitHub Data Source Banner -->
+    <div class="config-banner" id="configBanner">
+        <div>
+            <span>Data Source:</span> <strong id="currentDataSourceText">GitHub Raw DB</strong>
+        </div>
+        <button class="config-btn" onclick="changeGitHubRepo()">Change GitHub URL</button>
+    </div>
+
+    <!-- Search Box -->
+    <div class="search-card">
+        <div class="search-input-box">
+            <span style="color:var(--text-muted); margin-right:8px;">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search by Application ID, Name, or Mobile Last 4 digits (e.g. 6901)..." autocomplete="off">
+            <button class="clear-search" id="clearBtn">&times;</button>
+        </div>
+
+        <div class="filter-row" id="filterRow">
+            <button class="chip active" data-svc="ALL">All</button>
+            <button class="chip" data-svc="GST">GST</button>
+            <button class="chip" data-svc="PAN">PAN</button>
+            <button class="chip" data-svc="DSC">DSC</button>
+            <button class="chip" data-svc="EPFO">EPFO</button>
+            <button class="chip" data-svc="ESIC">ESIC</button>
+            <button class="chip" data-svc="MCA">MCA</button>
+        </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-box">
+            <div class="stat-val" id="stTotal">0</div>
+            <div class="stat-lbl">Total</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-val" id="stProgress" style="color:var(--primary-light);">0</div>
+            <div class="stat-lbl">In Progress</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-val" id="stReview" style="color:var(--warning);">0</div>
+            <div class="stat-lbl">Under Review</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-val" id="stComplete" style="color:var(--success);">0</div>
+            <div class="stat-lbl">Completed</div>
+        </div>
+    </div>
+
+    <!-- Results List -->
+    <div class="results-header">
+        <span>Active Applications</span>
+        <span id="countText">0 Records</span>
+    </div>
+
+    <div class="app-list" id="appList">
+        <div class="empty-msg">Loading application database from GitHub...</div>
+    </div>
+</div>
+
+<!-- Modal for Milestones Detail -->
+<div class="modal" id="statusModal">
+    <div class="modal-box">
+        <div class="modal-top">
+            <div>
+                <span id="modalSvcBadge" class="service-badge badge-gst">GST</span>
+                <h3 id="modalName" style="font-family:'Outfit', sans-serif; font-size:1.3rem; margin-top:6px;">Client Name</h3>
+                <div style="font-size:0.8rem; color:var(--text-muted); font-family:monospace;">ID: #<span id="modalId">123456</span></div>
+            </div>
+            <button class="close-btn" onclick="closeModal()">&times;</button>
+        </div>
+
+        <div style="background:var(--bg-input); padding:12px; border-radius:8px; margin-bottom:16px; font-size:0.85rem; border:1px dashed var(--border-color);">
+            <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
+                <span style="color:var(--text-muted);">Verified Mobile:</span>
+                <strong id="modalPhone" style="font-family:monospace; color:var(--text-sub);">XXXXXX6901</strong>
+            </div>
+            <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
+                <span style="color:var(--text-muted);">Verified Email:</span>
+                <strong id="modalEmail" style="font-family:monospace; color:var(--text-sub);">an***4@gmail.com</strong>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+                <span style="color:var(--text-muted);">Target Due Date:</span>
+                <strong id="modalTarget" style="color:#38bdf8;">2026-09-25</strong>
+            </div>
+        </div>
+
+        <h4 style="font-family:'Outfit', sans-serif; font-size:1rem; margin-bottom:8px;">Milestones & Progress</h4>
+        <div class="modal-stepper" id="modalStepper"></div>
+
+        <div style="margin-top:20px; text-align:right;">
+            <button onclick="closeModal()" style="background:var(--bg-card); border:1px solid var(--border-color); color:var(--text-main); padding:8px 16px; border-radius:6px; font-weight:600; cursor:pointer;">Close</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // =========================================================================
+    // CONFIGURATION: Set your GitHub Username and Repository Name here!
+    // =========================================================================
+    let GITHUB_USERNAME = "ankitmavi4-cmyk";
+    let GITHUB_REPO = "task-data";
+    let GITHUB_BRANCH = "main";
+    let DB_FILENAME = "tasks_db.json";
+
+    // Build the raw GitHub database URL (supports raw.githubusercontent & jsdelivr CDN)
+    function getDbUrl(filename = DB_FILENAME) {
+        const custom = localStorage.getItem('wapka_github_custom_url');
+        if (custom) return custom;
+
+        if (GITHUB_USERNAME !== "YOUR_GITHUB_USERNAME" && GITHUB_REPO !== "YOUR_REPOSITORY_NAME") {
+            return `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/${GITHUB_BRANCH}/${filename}`;
+        }
+        // Fallback relative or local
+        return filename;
+    }
+
+    let allTasks = [];
+    let activeSvc = "ALL";
+    let searchQuery = "";
+
+    async function loadTasks() {
+        const url = getDbUrl();
+        document.getElementById('currentDataSourceText').textContent = url.length > 40 ? url.substring(0, 37) + '...' : url;
+        
+        try {
+            const res = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now());
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            allTasks = await res.json();
+        } catch (err) {
+            console.warn("Could not fetch remote DB directly, checking sample fallback...", err);
+            // Default sample fallback if repo is not configured yet
+            allTasks = [
+                {
+                    "id": "1789066445",
+                    "clientName": "JSR FITNESS GYM",
+                    "maskedPhone": "XXXXXX6901",
+                    "phoneLast4": "6901",
+                    "maskedEmail": "an********4@gmail.com",
+                    "serviceType": "GST",
+                    "targetDate": "2026-09-25",
+                    "status": "In Progress",
+                    "completed": false,
+                    "currentStage": "1. Documents Intake & Verification",
+                    "currentStageIndex": 0,
+                    "progress": 20,
+                    "stages": [
+                        "1. Documents Intake & Verification",
+                        "2. TRN Generated & Part-B Drafted",
+                        "3. Aadhaar OTP Authentication Done",
+                        "4. ARN Generated / Officer Review",
+                        "5. Approved (REG-06 Issued)"
+                    ]
+                },
+                {
+                    "id": "1789065400",
+                    "clientName": "MUNSHIRAM EDUCATION SOCIETY",
+                    "maskedPhone": "XXXXXX3877",
+                    "phoneLast4": "3877",
+                    "maskedEmail": "vi****************7@gmail.com",
+                    "serviceType": "PAN",
+                    "targetDate": "2026-09-11",
+                    "status": "Department Review",
+                    "completed": false,
+                    "currentStage": "3. NSDL/UTIITSL Ack Generated",
+                    "currentStageIndex": 2,
+                    "progress": 60,
+                    "stages": [
+                        "1. KYC Documents Received",
+                        "2. Form 49A Filed Online",
+                        "3. NSDL/UTIITSL Ack Generated",
+                        "4. Income Tax Scrutiny Done",
+                        "5. e-PAN Delivered & Dispatched"
+                    ]
+                }
+            ];
+        }
+
+        updateStats();
+        renderList();
+    }
+
+    function updateStats() {
+        document.getElementById('stTotal').textContent = allTasks.length;
+        document.getElementById('stProgress').textContent = allTasks.filter(t => t.status === 'In Progress' || t.status === 'Filing Initiated').length;
+        document.getElementById('stReview').textContent = allTasks.filter(t => t.status === 'Department Review').length;
+        document.getElementById('stComplete').textContent = allTasks.filter(t => t.completed || t.status === 'Completed').length;
+    }
+
+    function getBadgeClass(svc) {
+        const s = (svc || '').toUpperCase();
+        if (s.includes('GST')) return 'badge-gst';
+        if (s.includes('PAN')) return 'badge-pan';
+        if (s.includes('DSC')) return 'badge-dsc';
+        return 'badge-other';
+    }
+
+    function renderList() {
+        const list = document.getElementById('appList');
+        const q = searchQuery.toLowerCase().trim();
+
+        const filtered = allTasks.filter(t => {
+            if (activeSvc !== "ALL") {
+                if (!(t.serviceType || '').toUpperCase().includes(activeSvc)) return false;
+            }
+            if (q) {
+                const mId = (t.id || '').toLowerCase().includes(q);
+                const mName = (t.clientName || '').toLowerCase().includes(q);
+                const mPhone4 = (t.phoneLast4 || '').includes(q);
+                const mMasked = (t.maskedPhone || '').toLowerCase().includes(q);
+                if (!mId && !mName && !mPhone4 && !mMasked) return false;
+            }
+            return true;
+        });
+
+        document.getElementById('countText').textContent = `${filtered.length} Applications`;
+
+        if (filtered.length === 0) {
+            list.innerHTML = `<div class="empty-msg">No applications found matching "${escapeHtml(searchQuery)}".</div>`;
+            return;
+        }
+
+        list.innerHTML = filtered.map(t => {
+            const isDone = t.completed || t.progress >= 100;
+            const badgeClass = getBadgeClass(t.serviceType);
+
+            return `
+                <div class="app-item" onclick="openModal('${t.id}')">
+                    <div class="item-top">
+                        <div>
+                            <div class="item-title">${escapeHtml(t.clientName)}</div>
+                            <div class="item-id">ID: #${t.id}</div>
+                        </div>
+                        <span class="service-badge ${badgeClass}">${escapeHtml(t.serviceType)}</span>
+                    </div>
+
+                    <div class="masked-row">
+                        <span><strong>Mobile:</strong> ${t.maskedPhone || 'XXXXXX----'}</span>
+                        <span><strong>Email:</strong> ${t.maskedEmail || '---@---.com'}</span>
+                    </div>
+
+                    <div class="progress-box">
+                        <div class="progress-info">
+                            <span style="color:var(--text-main);">${escapeHtml(t.currentStage || 'Filing Received')}</span>
+                            <span style="color:var(--primary-light);">${t.progress || 0}%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill ${isDone ? 'done' : ''}" style="width:${t.progress || 0}%"></div>
+                        </div>
+                    </div>
+
+                    <div class="item-footer">
+                        <span>Target: ${t.targetDate || 'In Progress'}</span>
+                        <span class="track-link">Track Stages ➔</span>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    // Modal
+    window.openModal = function(id) {
+        const task = allTasks.find(t => String(t.id) === String(id));
+        if (!task) return;
+
+        document.getElementById('modalName').textContent = task.clientName;
+        document.getElementById('modalId').textContent = task.id;
+        document.getElementById('modalPhone').textContent = task.maskedPhone || 'N/A';
+        document.getElementById('modalEmail').textContent = task.maskedEmail || 'N/A';
+        document.getElementById('modalTarget').textContent = task.targetDate || 'In Progress';
+
+        const badge = document.getElementById('modalSvcBadge');
+        badge.className = `service-badge ${getBadgeClass(task.serviceType)}`;
+        badge.textContent = task.serviceType;
+
+        const stages = Array.isArray(task.stages) && task.stages.length > 0 ? task.stages : [task.currentStage || 'Application processing'];
+        const isDone = task.completed || task.progress >= 100;
+        const currentIdx = typeof task.currentStageIndex === 'number' ? task.currentStageIndex : (isDone ? stages.length - 1 : 0);
+
+        document.getElementById('modalStepper').innerHTML = stages.map((stg, idx) => {
+            let cls = "";
+            let dotVal = idx + 1;
+            if (isDone || idx < currentIdx) {
+                cls = "done";
+                dotVal = "✓";
+            } else if (idx === currentIdx) {
+                cls = "active";
+                dotVal = "●";
+            }
+
+            return `
+                <div class="step-row ${cls}">
+                    <div class="step-dot">${dotVal}</div>
+                    <div class="step-text">${escapeHtml(stg)}</div>
+                </div>
+            `;
+        }).join('');
+
+        document.getElementById('statusModal').style.display = 'flex';
+    };
+
+    window.closeModal = function() {
+        document.getElementById('statusModal').style.display = 'none';
+    };
+
+    window.changeGitHubRepo = function() {
+        const curr = localStorage.getItem('wapka_github_custom_url') || `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/${GITHUB_BRANCH}/${DB_FILENAME}`;
+        const input = prompt("Enter your public GitHub Raw URL for tasks_status_db.json:\n(Example: https://raw.githubusercontent.com/username/repo/main/tasks_status_db.json)", curr);
+        if (input !== null && input.trim()) {
+            localStorage.setItem('wapka_github_custom_url', input.trim());
+            loadTasks();
+        }
+    };
+
+    // Search events
+    const searchInput = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('clearBtn');
+
+    searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value;
+        clearBtn.style.display = searchQuery ? 'block' : 'none';
+        renderList();
+    });
+
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchQuery = '';
+        clearBtn.style.display = 'none';
+        renderList();
+    });
+
+    // Filter Chips
+    document.getElementById('filterRow').addEventListener('click', (e) => {
+        if (e.target.classList.contains('chip')) {
+            document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+            e.target.classList.add('active');
+            activeSvc = e.target.getAttribute('data-svc');
+            renderList();
+        }
+    });
+
+    function escapeHtml(str) {
+        if (!str) return '';
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // Init
+    loadTasks();
+</script>
+</body>
+</html>
