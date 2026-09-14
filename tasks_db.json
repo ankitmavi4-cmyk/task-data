@@ -28,7 +28,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:06"
+    "lastUpdated": "2026-09-14 15:07"
   },
   {
     "id": "1789066445",
@@ -59,7 +59,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:06"
+    "lastUpdated": "2026-09-14 15:07"
   },
   {
     "id": "1789065400",
@@ -90,7 +90,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:06"
+    "lastUpdated": "2026-09-14 15:07"
   },
   {
     "id": "1789066069",
@@ -121,7 +121,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:06"
+    "lastUpdated": "2026-09-14 15:07"
   },
   {
     "id": "1789066094",
@@ -138,10 +138,10 @@
     "targetDate": "2026-09-13",
     "status": "Department Review",
     "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "stage": "4. Certificate Downloaded to Token",
+    "currentStage": "4. Certificate Downloaded to Token",
+    "currentStageIndex": 3,
+    "progress": 80,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -152,7 +152,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:06"
+    "lastUpdated": "2026-09-14 15:07"
   },
   {
     "id": "1789065573",
@@ -169,10 +169,10 @@
     "targetDate": "2026-09-13",
     "status": "Department Review",
     "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "stage": "4. Certificate Downloaded to Token",
+    "currentStage": "4. Certificate Downloaded to Token",
+    "currentStageIndex": 3,
+    "progress": 80,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -183,6 +183,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:06"
+    "lastUpdated": "2026-09-14 15:07"
   }
 ]
