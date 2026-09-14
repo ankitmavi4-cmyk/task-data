@@ -1,36 +1,5 @@
 [
   {
-    "id": "1789334535",
-    "clientName": "SANJU BABA",
-    "phone": "XXXXXX9478",
-    "maskedPhone": "XXXXXX9478",
-    "phoneLast4": "9478",
-    "email": "it***********i@gmail.com",
-    "maskedEmail": "it***********i@gmail.com",
-    "serviceType": "PAN",
-    "reference": "CA HEMANT",
-    "staffAssigned": "KANIKA",
-    "createdDate": "2026-09-13",
-    "targetDate": "2026-09-14",
-    "status": "In Progress",
-    "completed": false,
-    "stage": "1. KYC Documents Received",
-    "currentStage": "1. KYC Documents Received",
-    "currentStageIndex": 0,
-    "progress": 20,
-    "totalStages": 5,
-    "stages": [
-      "1. KYC Documents Received",
-      "2. Form 49A Filed Online",
-      "3. NSDL/UTIITSL Ack Generated",
-      "4. Income Tax Scrutiny Done",
-      "5. e-PAN Delivered & Dispatched"
-    ],
-    "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
-  },
-  {
     "id": "1789329174",
     "clientName": "KENNETH CHARLES TAYLOR",
     "phone": "XXXXXX3081",
@@ -59,7 +28,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
+    "lastUpdated": "2026-09-14 15:01"
   },
   {
     "id": "1789066445",
@@ -90,7 +59,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
+    "lastUpdated": "2026-09-14 15:01"
   },
   {
     "id": "1789065400",
@@ -121,7 +90,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
+    "lastUpdated": "2026-09-14 15:01"
   },
   {
     "id": "1789066069",
@@ -152,7 +121,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
+    "lastUpdated": "2026-09-14 15:01"
   },
   {
     "id": "1789066094",
@@ -167,12 +136,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-10",
     "targetDate": "2026-09-13",
-    "status": "Department Review",
+    "status": "In Progress",
     "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "stage": "2. Mobile & Email OTP Done",
+    "currentStage": "2. Mobile & Email OTP Done",
+    "currentStageIndex": 1,
+    "progress": 40,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -183,7 +152,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
+    "lastUpdated": "2026-09-14 15:01"
   },
   {
     "id": "1789065573",
@@ -214,6 +183,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 02:40"
+    "lastUpdated": "2026-09-14 15:01"
   }
 ]
