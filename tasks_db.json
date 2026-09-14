@@ -28,7 +28,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 16:10"
+    "lastUpdated": "2026-09-14 16:33"
   },
   {
     "id": "1789066445",
@@ -59,7 +59,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 16:10"
+    "lastUpdated": "2026-09-14 16:33"
   },
   {
     "id": "1789065400",
@@ -90,7 +90,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 16:10"
+    "lastUpdated": "2026-09-14 16:33"
   },
   {
     "id": "1789066069",
@@ -105,12 +105,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-10",
     "targetDate": "2026-09-13",
-    "status": "In Progress",
+    "status": "Department Review",
     "completed": false,
-    "stage": "2. Mobile & Email OTP Done",
-    "currentStage": "2. Mobile & Email OTP Done",
-    "currentStageIndex": 1,
-    "progress": 40,
+    "stage": "4. Certificate Downloaded to Token",
+    "currentStage": "4. Certificate Downloaded to Token",
+    "currentStageIndex": 3,
+    "progress": 80,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -121,7 +121,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 16:10"
+    "lastUpdated": "2026-09-14 16:33"
   },
   {
     "id": "1789066094",
@@ -152,7 +152,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 16:10"
+    "lastUpdated": "2026-09-14 16:33"
   },
   {
     "id": "1789065573",
@@ -183,6 +183,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 16:10"
+    "lastUpdated": "2026-09-14 16:33"
   }
 ]
