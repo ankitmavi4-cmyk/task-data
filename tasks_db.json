@@ -2,22 +2,22 @@
   {
     "id": "1789329174",
     "clientName": "KENNETH CHARLES TAYLOR",
-    "phone": "XXXXXX3081",
-    "maskedPhone": "XXXXXX3081",
-    "phoneLast4": "3081",
-    "email": "an********4@gmail.com",
-    "maskedEmail": "an********4@gmail.com",
+    "phone": "XXXXXX6120",
+    "maskedPhone": "XXXXXX6120",
+    "phoneLast4": "6120",
+    "email": "ha****************1@gmail.com",
+    "maskedEmail": "ha****************1@gmail.com",
     "serviceType": "DSC",
     "reference": "CA HEMANT",
     "staffAssigned": "KANIKA",
-    "createdDate": "2026-09-13",
-    "targetDate": "2026-09-16",
+    "createdDate": "2026-09-14",
+    "targetDate": "2026-09-17",
     "status": "In Progress",
     "completed": false,
-    "stage": "1. Docs & KYC Collected",
-    "currentStage": "1. Docs & KYC Collected",
-    "currentStageIndex": 0,
-    "progress": 20,
+    "stage": "2. Mobile & Email OTP Done",
+    "currentStage": "2. Mobile & Email OTP Done",
+    "currentStageIndex": 1,
+    "progress": 40,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -28,7 +28,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:07"
+    "lastUpdated": "2026-09-14 16:10"
   },
   {
     "id": "1789066445",
@@ -59,7 +59,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:07"
+    "lastUpdated": "2026-09-14 16:10"
   },
   {
     "id": "1789065400",
@@ -90,7 +90,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:07"
+    "lastUpdated": "2026-09-14 16:10"
   },
   {
     "id": "1789066069",
@@ -121,7 +121,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:07"
+    "lastUpdated": "2026-09-14 16:10"
   },
   {
     "id": "1789066094",
@@ -152,7 +152,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:07"
+    "lastUpdated": "2026-09-14 16:10"
   },
   {
     "id": "1789065573",
@@ -183,6 +183,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-14 15:07"
+    "lastUpdated": "2026-09-14 16:10"
   }
 ]
