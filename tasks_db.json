@@ -26,14 +26,14 @@
       "4. Certificate Downloaded to Token",
       "5. Token Handover / Delivered"
     ],
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PAID",
     "deliverables": {
       "Token Serial Number / Brand": "925118",
       "Certificate Expiry Date": "2028-09-14",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-15 16:12"
+    "lastUpdated": "2026-09-15 18:05"
   },
   {
     "id": "1789066445",
@@ -64,7 +64,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 16:12"
+    "lastUpdated": "2026-09-15 18:05"
   },
   {
     "id": "1789065400",
@@ -95,7 +95,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 16:12"
+    "lastUpdated": "2026-09-15 18:05"
   },
   {
     "id": "1789066069",
@@ -126,7 +126,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 16:12"
+    "lastUpdated": "2026-09-15 18:05"
   },
   {
     "id": "1789066094",
@@ -157,7 +157,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 16:12"
+    "lastUpdated": "2026-09-15 18:05"
   },
   {
     "id": "1789065573",
@@ -188,6 +188,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 16:12"
+    "lastUpdated": "2026-09-15 18:05"
   }
 ]
