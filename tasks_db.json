@@ -12,12 +12,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-14",
     "targetDate": "2026-09-17",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "4. Certificate Downloaded to Token",
-    "currentStage": "4. Certificate Downloaded to Token",
-    "currentStageIndex": 3,
-    "progress": 80,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Token Handover / Delivered",
+    "currentStage": "5. Token Handover / Delivered",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -27,8 +27,13 @@
       "5. Token Handover / Delivered"
     ],
     "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-09-15 14:49"
+    "deliverables": {
+      "Token Serial Number / Brand": "925118",
+      "Certificate Expiry Date": "2028-09-14",
+      "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
+      "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
+    },
+    "lastUpdated": "2026-09-15 16:12"
   },
   {
     "id": "1789066445",
@@ -59,7 +64,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 14:49"
+    "lastUpdated": "2026-09-15 16:12"
   },
   {
     "id": "1789065400",
@@ -90,7 +95,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 14:49"
+    "lastUpdated": "2026-09-15 16:12"
   },
   {
     "id": "1789066069",
@@ -121,7 +126,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 14:49"
+    "lastUpdated": "2026-09-15 16:12"
   },
   {
     "id": "1789066094",
@@ -152,7 +157,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 14:49"
+    "lastUpdated": "2026-09-15 16:12"
   },
   {
     "id": "1789065573",
@@ -183,6 +188,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 14:49"
+    "lastUpdated": "2026-09-15 16:12"
   }
 ]
