@@ -1,5 +1,36 @@
 [
   {
+    "id": "1789726049",
+    "clientName": "DEVA ENTERPRISES",
+    "phone": "XXXXXX7918",
+    "maskedPhone": "XXXXXX7918",
+    "phoneLast4": "7918",
+    "email": "je************0@gmail.com",
+    "maskedEmail": "je************0@gmail.com",
+    "serviceType": "GST",
+    "reference": "DIRECT",
+    "staffAssigned": "JEETU",
+    "createdDate": "2026-09-18",
+    "targetDate": "2026-10-03",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Documents Intake & Verification",
+    "currentStage": "1. Documents Intake & Verification",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Documents Intake & Verification",
+      "2. TRN Generated & Part-B Drafted",
+      "3. Aadhaar OTP Authentication Done",
+      "4. ARN Generated / Officer Review",
+      "5. Approved (REG-06 Issued)"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-09-18 15:35"
+  },
+  {
     "id": "1789329174",
     "clientName": "KENNETH CHARLES TAYLOR",
     "phone": "XXXXXX6120",
@@ -33,7 +64,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-15 18:05"
+    "lastUpdated": "2026-09-18 15:35"
   },
   {
     "id": "1789066445",
@@ -64,7 +95,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 18:05"
+    "lastUpdated": "2026-09-18 15:35"
   },
   {
     "id": "1789065400",
@@ -95,7 +126,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 18:05"
+    "lastUpdated": "2026-09-18 15:35"
   },
   {
     "id": "1789066069",
@@ -126,7 +157,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 18:05"
+    "lastUpdated": "2026-09-18 15:35"
   },
   {
     "id": "1789066094",
@@ -157,7 +188,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 18:05"
+    "lastUpdated": "2026-09-18 15:35"
   },
   {
     "id": "1789065573",
@@ -188,6 +219,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-15 18:05"
+    "lastUpdated": "2026-09-18 15:35"
   }
 ]
