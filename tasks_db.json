@@ -12,12 +12,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-21",
     "targetDate": "2026-09-24",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Token Handover / Delivered",
+    "currentStage": "5. Token Handover / Delivered",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -27,8 +27,13 @@
       "5. Token Handover / Delivered"
     ],
     "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "deliverables": {
+      "Token Serial Number / Brand": "SPEED SIGN",
+      "Certificate Expiry Date": "2028-09-20",
+      "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
+      "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
+    },
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789986658",
@@ -43,12 +48,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-21",
     "targetDate": "2026-09-24",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Token Handover / Delivered",
+    "currentStage": "5. Token Handover / Delivered",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -58,8 +63,13 @@
       "5. Token Handover / Delivered"
     ],
     "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "deliverables": {
+      "Token Serial Number / Brand": "SPEED SIGN",
+      "Certificate Expiry Date": "2028-09-21",
+      "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
+      "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
+    },
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789889875",
@@ -70,7 +80,7 @@
     "email": "",
     "maskedEmail": "",
     "serviceType": "GST",
-    "reference": "N/A",
+    "reference": "DIRECT",
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-20",
     "targetDate": "2026-10-05",
@@ -90,7 +100,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789726049",
@@ -121,7 +131,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789329174",
@@ -157,7 +167,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789066445",
@@ -188,7 +198,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789065400",
@@ -219,7 +229,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789066069",
@@ -250,7 +260,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789066094",
@@ -281,7 +291,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   },
   {
     "id": "1789065573",
@@ -312,6 +322,6 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-21 15:56"
+    "lastUpdated": "2026-09-21 17:15"
   }
 ]
