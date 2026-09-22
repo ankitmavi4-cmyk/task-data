@@ -33,7 +33,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1790015687",
@@ -48,12 +48,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-21",
     "targetDate": "2026-09-24",
-    "status": "In Progress",
+    "status": "Department Review",
     "completed": false,
-    "stage": "1. Documents & Intake",
-    "currentStage": "1. Documents & Intake",
-    "currentStageIndex": 0,
-    "progress": 25,
+    "stage": "2. Challan Paid",
+    "currentStage": "2. Challan Paid",
+    "currentStageIndex": 1,
+    "progress": 50,
     "totalStages": 4,
     "stages": [
       "1. Documents & Intake",
@@ -63,7 +63,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789986941",
@@ -99,7 +99,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789986658",
@@ -135,7 +135,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789889875",
@@ -166,7 +166,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789726049",
@@ -197,7 +197,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789329174",
@@ -233,7 +233,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789066445",
@@ -264,7 +264,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789065400",
@@ -295,7 +295,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789066069",
@@ -331,7 +331,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789066094",
@@ -367,7 +367,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   },
   {
     "id": "1789065573",
@@ -403,6 +403,6 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-22 17:09"
+    "lastUpdated": "2026-09-22 17:42"
   }
 ]
