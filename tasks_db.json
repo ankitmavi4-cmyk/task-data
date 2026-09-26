@@ -1,5 +1,36 @@
 [
   {
+    "id": "1790400962",
+    "clientName": "MEDIACRAFTT CREATIVE SOLUTIONS MCS PVT LTD",
+    "phone": "XXXXXX5532",
+    "maskedPhone": "XXXXXX5532",
+    "phoneLast4": "5532",
+    "email": "an********4@gmail.com",
+    "maskedEmail": "an********4@gmail.com",
+    "serviceType": "PAN",
+    "reference": "DIRECT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-09-26",
+    "targetDate": "2026-09-27",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. KYC Documents Received",
+    "currentStage": "1. KYC Documents Received",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. KYC Documents Received",
+      "2. Form 49A Filed Online",
+      "3. NSDL/UTIITSL Ack Generated",
+      "4. Income Tax Scrutiny Done",
+      "5. e-PAN Delivered & Dispatched"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-09-26 10:59"
+  },
+  {
     "id": "1790248945",
     "clientName": "KADIR",
     "phone": "XXXXXX9578",
@@ -28,7 +59,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1790062110",
@@ -64,7 +95,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1790015687",
@@ -94,7 +125,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789986941",
@@ -130,7 +161,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789986658",
@@ -166,7 +197,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789889875",
@@ -197,7 +228,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789726049",
@@ -228,7 +259,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789329174",
@@ -264,7 +295,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789066445",
@@ -295,7 +326,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789065400",
@@ -326,7 +357,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789066069",
@@ -362,7 +393,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789066094",
@@ -398,7 +429,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   },
   {
     "id": "1789065573",
@@ -434,6 +465,6 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-09-24 18:59"
+    "lastUpdated": "2026-09-26 10:59"
   }
 ]
