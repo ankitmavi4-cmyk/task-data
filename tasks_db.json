@@ -1,5 +1,36 @@
 [
   {
+    "id": "1791478583",
+    "clientName": "MEDIACRAFTT CREATIVE SOLUTIONS MCS PVT LTD",
+    "phone": "XXXXXX4587",
+    "maskedPhone": "XXXXXX4587",
+    "phoneLast4": "4587",
+    "email": "pa**********k@gmail.com",
+    "maskedEmail": "pa**********k@gmail.com",
+    "serviceType": "GST",
+    "reference": "DIRECT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-10-08",
+    "targetDate": "2026-10-23",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Documents Intake & Verification",
+    "currentStage": "1. Documents Intake & Verification",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Documents Intake & Verification",
+      "2. TRN Generated & Part-B Drafted",
+      "3. Aadhaar OTP Authentication Done",
+      "4. ARN Generated / Officer Review",
+      "5. Approved (REG-06 Issued)"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-10-08 22:26"
+  },
+  {
     "id": "1791363972",
     "clientName": "MD ALAM",
     "phone": "XXXXXX2532",
@@ -12,12 +43,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-10-07",
     "targetDate": "2026-10-10",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Token Handover / Delivered",
+    "currentStage": "5. Token Handover / Delivered",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -26,9 +57,13 @@
       "4. Certificate Downloaded to Token",
       "5. Token Handover / Delivered"
     ],
-    "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "paymentStatus": "PAID",
+    "deliverables": {
+      "Token Serial Number / Brand": "SPEED SIGN",
+      "Certificate Expiry Date": "2027-10-07",
+      "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
+    },
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1791118685",
@@ -59,7 +94,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1790686918",
@@ -95,7 +130,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-05"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1790400962",
@@ -128,7 +163,7 @@
     "deliverables": {
       "Allotted PAN Number": "Alloted"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1790248945",
@@ -159,7 +194,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1790062110",
@@ -195,7 +230,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1790015687",
@@ -225,7 +260,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789986941",
@@ -261,7 +296,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789986658",
@@ -297,7 +332,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789889875",
@@ -328,7 +363,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789726049",
@@ -364,7 +399,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789329174",
@@ -400,7 +435,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789066445",
@@ -431,7 +466,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789065400",
@@ -462,7 +497,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789066069",
@@ -491,14 +526,14 @@
       "4. Certificate Downloaded to Token",
       "5. Token Handover / Delivered"
     ],
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PAID",
     "deliverables": {
       "Token Serial Number / Brand": "SPEED SIGN",
       "Certificate Expiry Date": "2028-09-21",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789066094",
@@ -527,14 +562,14 @@
       "4. Certificate Downloaded to Token",
       "5. Token Handover / Delivered"
     ],
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PAID",
     "deliverables": {
       "Token Serial Number / Brand": "SPEED SIGN",
       "Certificate Expiry Date": "2028-09-21",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   },
   {
     "id": "1789065573",
@@ -563,13 +598,13 @@
       "4. Certificate Downloaded to Token",
       "5. Token Handover / Delivered"
     ],
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PAID",
     "deliverables": {
       "Token Serial Number / Brand": "SPEED SIGN",
       "Certificate Expiry Date": "2028-09-21",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-08 22:22"
+    "lastUpdated": "2026-10-08 22:26"
   }
 ]
