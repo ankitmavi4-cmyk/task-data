@@ -28,7 +28,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1791363972",
@@ -63,7 +63,7 @@
       "Certificate Expiry Date": "2027-10-07",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1791118685",
@@ -94,7 +94,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1790686918",
@@ -130,7 +130,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-05"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1790400962",
@@ -163,7 +163,7 @@
     "deliverables": {
       "Allotted PAN Number": "Alloted"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1790248945",
@@ -194,7 +194,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1790062110",
@@ -230,7 +230,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1790015687",
@@ -260,7 +260,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789986941",
@@ -296,7 +296,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789986658",
@@ -332,7 +332,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789889875",
@@ -347,12 +347,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-09-20",
     "targetDate": "2026-10-05",
-    "status": "In Progress",
-    "completed": false,
-    "stage": "1. Documents Intake & Verification",
-    "currentStage": "1. Documents Intake & Verification",
-    "currentStageIndex": 0,
-    "progress": 20,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Approved (REG-06 Issued)",
+    "currentStage": "5. Approved (REG-06 Issued)",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Documents Intake & Verification",
@@ -361,9 +361,14 @@
       "4. ARN Generated / Officer Review",
       "5. Approved (REG-06 Issued)"
     ],
-    "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "paymentStatus": "PAID",
+    "deliverables": {
+      "GSTIN / Registration Number": "NA",
+      "GST Portal Username": "NA",
+      "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
+      "Effective Date of Regn": "2026-10-01"
+    },
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789726049",
@@ -399,7 +404,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789329174",
@@ -435,7 +440,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789066445",
@@ -466,7 +471,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789065400",
@@ -495,9 +500,9 @@
       "4. Income Tax Scrutiny Done",
       "5. e-PAN Delivered & Dispatched"
     ],
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PAID",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789066069",
@@ -533,7 +538,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789066094",
@@ -569,7 +574,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   },
   {
     "id": "1789065573",
@@ -605,6 +610,6 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:20"
+    "lastUpdated": "2026-10-13 16:23"
   }
 ]
