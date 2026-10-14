@@ -1,5 +1,66 @@
 [
   {
+    "id": "1791971440",
+    "clientName": "GAUTAM",
+    "phone": "XXXXXX4075",
+    "maskedPhone": "XXXXXX4075",
+    "phoneLast4": "4075",
+    "email": "",
+    "maskedEmail": "",
+    "serviceType": "MSME",
+    "reference": "DIRECT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-10-14",
+    "targetDate": "2026-10-15",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Documents & Intake",
+    "currentStage": "1. Documents & Intake",
+    "currentStageIndex": 0,
+    "progress": 25,
+    "totalStages": 4,
+    "stages": [
+      "1. Documents & Intake",
+      "2. Challan Paid",
+      "3. Linking Request Submitted",
+      "4. Aadhar and Pan Linked"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-10-14 15:13"
+  },
+  {
+    "id": "1791970564",
+    "clientName": "AKASH",
+    "phone": "XXXXXX3453",
+    "maskedPhone": "XXXXXX3453",
+    "phoneLast4": "3453",
+    "email": "aa*****7@gmail.com",
+    "maskedEmail": "aa*****7@gmail.com",
+    "serviceType": "DSC",
+    "reference": "DEAL BANA",
+    "staffAssigned": "JEETU",
+    "createdDate": "2026-10-14",
+    "targetDate": "2026-10-17",
+    "status": "Department Review",
+    "completed": false,
+    "stage": "3. Video Recording Verified",
+    "currentStage": "3. Video Recording Verified",
+    "currentStageIndex": 2,
+    "progress": 60,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-10-14 15:13"
+  },
+  {
     "id": "1791889667",
     "clientName": "VAIDH RAJ SHARMA",
     "phone": "XXXXXX2581",
@@ -28,7 +89,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1791890225",
@@ -58,7 +119,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1791478583",
@@ -88,8 +149,10 @@
       "5. Approved (REG-06 Issued)"
     ],
     "paymentStatus": "PENDING",
-    "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "deliverables": {
+      "GSTIN / Registration Number": "092600573223TRN"
+    },
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1791363972",
@@ -124,7 +187,7 @@
       "Certificate Expiry Date": "2027-10-07",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1791118685",
@@ -155,7 +218,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1790686918",
@@ -191,7 +254,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-05"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1790400962",
@@ -224,7 +287,7 @@
     "deliverables": {
       "Allotted PAN Number": "Alloted"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1790248945",
@@ -255,7 +318,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1790062110",
@@ -291,7 +354,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1790015687",
@@ -321,7 +384,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789986941",
@@ -357,7 +420,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789986658",
@@ -393,7 +456,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789889875",
@@ -429,7 +492,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789726049",
@@ -465,7 +528,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789329174",
@@ -501,7 +564,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789066445",
@@ -532,7 +595,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789065400",
@@ -563,7 +626,7 @@
     ],
     "paymentStatus": "PAID",
     "deliverables": {},
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789066069",
@@ -599,7 +662,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789066094",
@@ -635,7 +698,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   },
   {
     "id": "1789065573",
@@ -671,6 +734,6 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-13 16:35"
+    "lastUpdated": "2026-10-14 15:13"
   }
 ]
