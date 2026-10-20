@@ -1,5 +1,129 @@
 [
   {
+    "id": "1792514478",
+    "clientName": "KARAN RAJORA",
+    "phone": "XXXXXX4448",
+    "maskedPhone": "XXXXXX4448",
+    "phoneLast4": "4448",
+    "email": "ka********8@gmail.com",
+    "maskedEmail": "ka********8@gmail.com",
+    "serviceType": "GST",
+    "reference": "TARUN",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-10-20",
+    "targetDate": "2026-11-04",
+    "status": "Department Review",
+    "completed": false,
+    "stage": "3. Aadhaar OTP Authentication Done",
+    "currentStage": "3. Aadhaar OTP Authentication Done",
+    "currentStageIndex": 2,
+    "progress": 60,
+    "totalStages": 5,
+    "stages": [
+      "1. Documents Intake & Verification",
+      "2. TRN Generated & Part-B Drafted",
+      "3. Aadhaar OTP Authentication Done",
+      "4. ARN Generated / Officer Review",
+      "5. Approved (REG-06 Issued)"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {
+      "GSTIN / Registration Number": "072600346579TRN"
+    },
+    "lastUpdated": "2026-10-20 22:11"
+  },
+  {
+    "id": "1792229700",
+    "clientName": "RAJESH RABIDAS",
+    "phone": "XXXXXX8214",
+    "maskedPhone": "XXXXXX8214",
+    "phoneLast4": "8214",
+    "email": "ra*************4@gmail.com",
+    "maskedEmail": "ra*************4@gmail.com",
+    "serviceType": "LABOUR LIC",
+    "reference": "BHUPENDER BIDHURI",
+    "staffAssigned": "ANKIT",
+    "createdDate": "2026-10-17",
+    "targetDate": "2026-10-27",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Documents & Intake",
+    "currentStage": "1. Documents & Intake",
+    "currentStageIndex": 0,
+    "progress": 25,
+    "totalStages": 4,
+    "stages": [
+      "1. Documents & Intake",
+      "2. Processing & Drafting",
+      "3. Submission & Review",
+      "4. Approved & Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-10-20 22:11"
+  },
+  {
+    "id": "1792229146",
+    "clientName": "SACHIN SATYA",
+    "phone": "XXXXXX5509",
+    "maskedPhone": "XXXXXX5509",
+    "phoneLast4": "5509",
+    "email": "",
+    "maskedEmail": "",
+    "serviceType": "MCA",
+    "reference": "BHUPENDER BIDHURI",
+    "staffAssigned": "ANKIT",
+    "createdDate": "2026-10-17",
+    "targetDate": "2026-11-01",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Name Reservation (SPICe+ Part-A)",
+    "currentStage": "1. Name Reservation (SPICe+ Part-A)",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Name Reservation (SPICe+ Part-A)",
+      "2. Drafting e-MOA & e-AOA",
+      "3. Directors DSC Affixed",
+      "4. CRC Officer Scrutiny",
+      "5. COI & Corporate PAN/TAN Allotted"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-10-20 22:11"
+  },
+  {
+    "id": "1792228904",
+    "clientName": "ANISH KHAN",
+    "phone": "XXXXXX7263",
+    "maskedPhone": "XXXXXX7263",
+    "phoneLast4": "7263",
+    "email": "",
+    "maskedEmail": "",
+    "serviceType": "BOOKS",
+    "reference": "IBRAHIM",
+    "staffAssigned": "ANKIT AND JEETU",
+    "createdDate": "2026-10-17",
+    "targetDate": "2026-10-20",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Documents & Intake",
+    "currentStage": "1. Documents & Intake",
+    "currentStageIndex": 0,
+    "progress": 25,
+    "totalStages": 4,
+    "stages": [
+      "1. Documents & Intake",
+      "2. Processing & Drafting",
+      "3. Submission & Review",
+      "4. Approved & Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-10-20 22:11"
+  },
+  {
     "id": "1791971440",
     "clientName": "GAUTAM",
     "phone": "XXXXXX4075",
@@ -27,7 +151,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1791970564",
@@ -44,10 +168,10 @@
     "targetDate": "2026-10-17",
     "status": "Department Review",
     "completed": false,
-    "stage": "3. Video Recording Verified",
-    "currentStage": "3. Video Recording Verified",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "stage": "4. Certificate Downloaded to Token",
+    "currentStage": "4. Certificate Downloaded to Token",
+    "currentStageIndex": 3,
+    "progress": 80,
     "totalStages": 5,
     "stages": [
       "1. Docs & KYC Collected",
@@ -58,7 +182,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1791889667",
@@ -89,7 +213,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1791890225",
@@ -119,7 +243,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1791478583",
@@ -134,12 +258,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-10-08",
     "targetDate": "2026-10-23",
-    "status": "In Progress",
-    "completed": false,
-    "stage": "1. Documents Intake & Verification",
-    "currentStage": "1. Documents Intake & Verification",
-    "currentStageIndex": 0,
-    "progress": 20,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Approved (REG-06 Issued)",
+    "currentStage": "5. Approved (REG-06 Issued)",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Documents Intake & Verification",
@@ -150,9 +274,11 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {
-      "GSTIN / Registration Number": "092600573223TRN"
+      "GSTIN / Registration Number": "na",
+      "GST Portal Username": "na",
+      "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1791363972",
@@ -187,7 +313,7 @@
       "Certificate Expiry Date": "2027-10-07",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1791118685",
@@ -218,7 +344,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1790686918",
@@ -254,7 +380,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-05"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1790400962",
@@ -287,7 +413,7 @@
     "deliverables": {
       "Allotted PAN Number": "Alloted"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1790248945",
@@ -318,7 +444,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1790062110",
@@ -354,7 +480,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1790015687",
@@ -384,7 +510,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789986941",
@@ -420,7 +546,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789986658",
@@ -456,7 +582,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789889875",
@@ -492,7 +618,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789726049",
@@ -528,7 +654,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789329174",
@@ -564,7 +690,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789066445",
@@ -595,7 +721,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789065400",
@@ -626,7 +752,7 @@
     ],
     "paymentStatus": "PAID",
     "deliverables": {},
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789066069",
@@ -662,7 +788,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789066094",
@@ -698,7 +824,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   },
   {
     "id": "1789065573",
@@ -734,6 +860,6 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-14 15:13"
+    "lastUpdated": "2026-10-20 22:11"
   }
 ]
