@@ -1,5 +1,257 @@
 [
   {
+    "id": "1794469309",
+    "clientName": "ARJUN SINGH CHAUHAN",
+    "phone": "XXXXXX9128",
+    "maskedPhone": "XXXXXX9128",
+    "phoneLast4": "9128",
+    "email": "ar**n@premierbearing.co.in",
+    "maskedEmail": "ar**n@premierbearing.co.in",
+    "serviceType": "DSC",
+    "reference": "N/A",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-11-12",
+    "targetDate": "2026-11-15",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Docs & KYC Collected",
+    "currentStage": "1. Docs & KYC Collected",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1794469148",
+    "clientName": "KRISHAN KUMAR",
+    "phone": "XXXXXX0735",
+    "maskedPhone": "XXXXXX0735",
+    "phoneLast4": "0735",
+    "email": "kr*****************h@gmail.com",
+    "maskedEmail": "kr*****************h@gmail.com",
+    "serviceType": "DSC",
+    "reference": "N/A",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-11-12",
+    "targetDate": "2026-11-15",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Docs & KYC Collected",
+    "currentStage": "1. Docs & KYC Collected",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1794469043",
+    "clientName": "SONU",
+    "phone": "XXXXXX2887",
+    "maskedPhone": "XXXXXX2887",
+    "phoneLast4": "2887",
+    "email": "so*********h@gmail.com",
+    "maskedEmail": "so*********h@gmail.com",
+    "serviceType": "DSC",
+    "reference": "N/A",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-11-12",
+    "targetDate": "2026-11-15",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Docs & KYC Collected",
+    "currentStage": "1. Docs & KYC Collected",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1793948080",
+    "clientName": "SACHIN SATYA",
+    "phone": "XXXXXX5509",
+    "maskedPhone": "XXXXXX5509",
+    "phoneLast4": "5509",
+    "email": "sa************0@gmail.com",
+    "maskedEmail": "sa************0@gmail.com",
+    "serviceType": "DSC",
+    "reference": "ANKIT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-11-06",
+    "targetDate": "2026-11-09",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Docs & KYC Collected",
+    "currentStage": "1. Docs & KYC Collected",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1793947990",
+    "clientName": "SANI",
+    "phone": "XXXXXX0437",
+    "maskedPhone": "XXXXXX0437",
+    "phoneLast4": "0437",
+    "email": "su************3@gmail.com",
+    "maskedEmail": "su************3@gmail.com",
+    "serviceType": "DSC",
+    "reference": "ANKIT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-11-06",
+    "targetDate": "2026-11-09",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Docs & KYC Collected",
+    "currentStage": "1. Docs & KYC Collected",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1793437581",
+    "clientName": "NITIN BISHT",
+    "phone": "XXXXXX5424",
+    "maskedPhone": "XXXXXX5424",
+    "phoneLast4": "5424",
+    "email": "ni**********9@gmail.com",
+    "maskedEmail": "ni**********9@gmail.com",
+    "serviceType": "DSC",
+    "reference": "CA HEMANT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-10-31",
+    "targetDate": "2026-11-03",
+    "status": "In Progress",
+    "completed": false,
+    "stage": "1. Docs & KYC Collected",
+    "currentStage": "1. Docs & KYC Collected",
+    "currentStageIndex": 0,
+    "progress": 20,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1793437112",
+    "clientName": "VIKASH SAGAR",
+    "phone": "XXXXXX3987",
+    "maskedPhone": "XXXXXX3987",
+    "phoneLast4": "3987",
+    "email": "vi****************k@gmail.com",
+    "maskedEmail": "vi****************k@gmail.com",
+    "serviceType": "DSC",
+    "reference": "CA HEMANT",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-10-31",
+    "targetDate": "2026-11-03",
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Token Handover / Delivered",
+    "currentStage": "5. Token Handover / Delivered",
+    "currentStageIndex": 4,
+    "progress": 100,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PENDING",
+    "deliverables": {
+      "Token Serial Number / Brand": "SPEED SIGN",
+      "Certificate Expiry Date": "2026-10-31",
+      "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
+    },
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
+    "id": "1793345418",
+    "clientName": "BIKRAM SINGH RANA",
+    "phone": "XXXXXX9395",
+    "maskedPhone": "XXXXXX9395",
+    "phoneLast4": "9395",
+    "email": "bi*********2@gmail.com",
+    "maskedEmail": "bi*********2@gmail.com",
+    "serviceType": "DSC",
+    "reference": "RAHUL JHA",
+    "staffAssigned": "KANIKA",
+    "createdDate": "2026-10-30",
+    "targetDate": "2026-11-02",
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Token Handover / Delivered",
+    "currentStage": "5. Token Handover / Delivered",
+    "currentStageIndex": 4,
+    "progress": 100,
+    "totalStages": 5,
+    "stages": [
+      "1. Docs & KYC Collected",
+      "2. Mobile & Email OTP Done",
+      "3. Video Recording Verified",
+      "4. Certificate Downloaded to Token",
+      "5. Token Handover / Delivered"
+    ],
+    "paymentStatus": "PAID",
+    "deliverables": {},
+    "lastUpdated": "2026-11-18 23:40"
+  },
+  {
     "id": "1792514478",
     "clientName": "KARAN RAJORA",
     "phone": "XXXXXX4448",
@@ -12,12 +264,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-10-20",
     "targetDate": "2026-11-04",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "3. Aadhaar OTP Authentication Done",
-    "currentStage": "3. Aadhaar OTP Authentication Done",
-    "currentStageIndex": 2,
-    "progress": 60,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Approved (REG-06 Issued)",
+    "currentStage": "5. Approved (REG-06 Issued)",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Documents Intake & Verification",
@@ -26,11 +278,14 @@
       "4. ARN Generated / Officer Review",
       "5. Approved (REG-06 Issued)"
     ],
-    "paymentStatus": "PENDING",
+    "paymentStatus": "PAID",
     "deliverables": {
-      "GSTIN / Registration Number": "072600346579TRN"
+      "GSTIN / Registration Number": "072600346579TRN",
+      "GST Portal Username": "NA",
+      "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
+      "Effective Date of Regn": "2026-10-30"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1792229700",
@@ -60,7 +315,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1792229146",
@@ -91,7 +346,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1792228904",
@@ -106,12 +361,12 @@
     "staffAssigned": "ANKIT AND JEETU",
     "createdDate": "2026-10-17",
     "targetDate": "2026-10-20",
-    "status": "In Progress",
+    "status": "Department Review",
     "completed": false,
-    "stage": "1. Documents & Intake",
-    "currentStage": "1. Documents & Intake",
-    "currentStageIndex": 0,
-    "progress": 25,
+    "stage": "3. Submission & Review",
+    "currentStage": "3. Submission & Review",
+    "currentStageIndex": 2,
+    "progress": 75,
     "totalStages": 4,
     "stages": [
       "1. Documents & Intake",
@@ -121,7 +376,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791971440",
@@ -151,7 +406,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791970564",
@@ -182,7 +437,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791889667",
@@ -197,12 +452,12 @@
     "staffAssigned": "KANIKA",
     "createdDate": "2026-10-13",
     "targetDate": "2026-10-28",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "4. ARN Generated / Officer Review",
-    "currentStage": "4. ARN Generated / Officer Review",
-    "currentStageIndex": 3,
-    "progress": 80,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. Approved (REG-06 Issued)",
+    "currentStage": "5. Approved (REG-06 Issued)",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. Documents Intake & Verification",
@@ -213,9 +468,12 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {
-      "GSTIN / Registration Number": "072600346589TRN"
+      "GSTIN / Registration Number": "072600346589TRN",
+      "GST Portal Username": "NA",
+      "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
+      "Effective Date of Regn": "2026-10-23"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791890225",
@@ -245,7 +503,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791478583",
@@ -280,7 +538,7 @@
       "GST Portal Username": "na",
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791363972",
@@ -315,7 +573,7 @@
       "Certificate Expiry Date": "2027-10-07",
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1791118685",
@@ -346,7 +604,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1790686918",
@@ -382,7 +640,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-05"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1790400962",
@@ -415,7 +673,7 @@
     "deliverables": {
       "Allotted PAN Number": "Alloted"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1790248945",
@@ -446,7 +704,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1790062110",
@@ -482,7 +740,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1790015687",
@@ -512,7 +770,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789986941",
@@ -548,7 +806,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789986658",
@@ -584,7 +842,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789889875",
@@ -620,7 +878,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789726049",
@@ -656,7 +914,7 @@
       "GST Portal Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Effective Date of Regn": "2026-10-01"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789329174",
@@ -692,7 +950,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789066445",
@@ -723,7 +981,7 @@
     ],
     "paymentStatus": "PENDING",
     "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789065400",
@@ -738,12 +996,12 @@
     "staffAssigned": "ANKIT",
     "createdDate": "2026-09-10",
     "targetDate": "2026-09-11",
-    "status": "Department Review",
-    "completed": false,
-    "stage": "4. Income Tax Scrutiny Done",
-    "currentStage": "4. Income Tax Scrutiny Done",
-    "currentStageIndex": 3,
-    "progress": 80,
+    "status": "Completed",
+    "completed": true,
+    "stage": "5. e-PAN Delivered & Dispatched",
+    "currentStage": "5. e-PAN Delivered & Dispatched",
+    "currentStageIndex": 4,
+    "progress": 100,
     "totalStages": 5,
     "stages": [
       "1. KYC Documents Received",
@@ -753,8 +1011,10 @@
       "5. e-PAN Delivered & Dispatched"
     ],
     "paymentStatus": "PAID",
-    "deliverables": {},
-    "lastUpdated": "2026-10-20 22:27"
+    "deliverables": {
+      "Allotted PAN Number": "DONE"
+    },
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789066069",
@@ -790,7 +1050,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789066094",
@@ -826,7 +1086,7 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   },
   {
     "id": "1789065573",
@@ -862,6 +1122,6 @@
       "User PIN / Password": "[CONFIDENTIAL - SENT DIRECTLY TO CLIENT]",
       "Issuing Authority (eMudhra/VSign)": "SPEED SIGN CA"
     },
-    "lastUpdated": "2026-10-20 22:27"
+    "lastUpdated": "2026-11-18 23:40"
   }
 ]
